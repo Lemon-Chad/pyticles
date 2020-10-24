@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setup(
   name = 'pyticles',         # How you named your package folder (MyLib)
   packages = ['pyticles'],   # Chose the same as "name"
-  version = '1.0',      # Start with a small number and increase it with every change you make
+  version = '1.0.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A simple particles system for pygame',   # Give a short description about your library
   long_description=long_description,
@@ -14,7 +14,7 @@ setup(
   author = 'LemonChad',                   # Type in your name
   author_email = 'jakitmationstudios@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/Lemon-Chad/pyticles',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/Lemon-Chad/pyticles/archive/v_1.0.zip',    # I explain this later on
+  download_url = 'https://github.com/Lemon-Chad/pyticles/archive/v_1.0.1.zip',    # I explain this later on
   keywords = ['python', 'particles', 'pygame'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'pygame',
