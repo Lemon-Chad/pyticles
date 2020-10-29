@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
   name = 'pyticles',         # How you named your package folder (MyLib)
   packages = ['pyticles'],   # Chose the same as "name"
-  version = '1.0.2',      # Start with a small number and increase it with every change you make
+  version = '1.0.3',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'A simple particles system for pygame',   # Give a short description about your library
   long_description='''
@@ -51,11 +51,10 @@ Tick takes in a surface to draw to and manage all tasks such as velocity, decay,
   author = 'LemonChad',                   # Type in your name
   author_email = 'jakitmationstudios@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/Lemon-Chad/pyticles',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/Lemon-Chad/pyticles/archive/v_1.0.2.zip',    # I explain this later on
+  download_url = 'https://github.com/Lemon-Chad/pyticles/archive/v_1.0.3.zip',    # I explain this later on
   keywords = ['python', 'particles', 'pygame'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
-          'pygame',
-          'random'
+          'pygame'
       ],
   classifiers=[
     'Development Status :: 5 - Production/Stable',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
